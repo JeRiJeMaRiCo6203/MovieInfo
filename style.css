@@ -102,7 +102,7 @@ h2{
     font-size: 0.95em;
     gap: 1em;
     justify-content: center;
-    color: #a0a0a0;
+    color: #ffff;
     margin: 0.6em 0;
     font-weight: 300;
 }
@@ -130,7 +130,7 @@ p{
     font-weight: 300;
     line-height: 1.8em;
     text-align: justify;
-    color: #a0a0a0;
+    color: #fff;
 }
 
 .msg{
