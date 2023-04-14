@@ -9,7 +9,8 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(black 50%, yellow 50%);
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 
 .container{
@@ -17,7 +18,8 @@ body{
     width: 90vw;
     max-width: 37.5em;
     padding: 3em 1.8em;
-    background-color: hsl(238, 96%, 49%);
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     
     position: absolute;
     transform: translate(-50%, -50%);
@@ -39,10 +41,13 @@ body{
     border-radius: 0.3em;
 }
 
+::placeholder{
+    color: aliceblue;
+}
 .search-container input{
     background-color: transparent;
-    border: 1px solid #000;
-    color: #000;
+    border: 1px solid #fff;
+    color: aqua;
     padding: 0.7em;
 }
 
@@ -102,7 +107,7 @@ h2{
     font-size: 0.95em;
     gap: 1em;
     justify-content: center;
-    color: #ffff;
+    color: aqua;
     margin: 0.6em 0;
     font-weight: 300;
 }
@@ -113,7 +118,7 @@ h2{
 }
 
 .genre div{
-    border: 1px solid #a0a0a0;
+    border: 1px solid white;
     font-size: 0.75em;
     padding: 0.4em 1.6em;
     border-radius: 0.4em;
@@ -130,7 +135,7 @@ p{
     font-weight: 300;
     line-height: 1.8em;
     text-align: justify;
-    color: #fff;
+    color: aqua;
 }
 
 .msg{
